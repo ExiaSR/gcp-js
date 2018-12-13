@@ -1,6 +1,6 @@
 {
   "name": "gcp-js",
-  "version": "0.1.0-alpha.3",
+  "version": "0.1.0-alpha.4",
   "description": "A Google Cloud Print JavaScript Client.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",

@@ -26,6 +26,8 @@ Below it is an example to authenticate with a service account, then print out a 
 
 ```js
 const { google } = require('googleapis');
+const GCP = require('gcp-js');
+const privateKey = require('./account.jwt.json');
 
 // init google apis client
 const client = await google.auth.getClient({
