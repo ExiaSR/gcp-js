@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb-base", 
+    "plugin:flowtype/recommended",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
+  "plugins": [
+    "flowtype"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": false,
+    "react/forbid-prop-types": false,
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }]
+  }
+}

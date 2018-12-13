@@ -1,0 +1,51 @@
+{
+  "name": "gcp-js",
+  "version": "0.1.0-alpha.3",
+  "description": "A Google Cloud Print JavaScript Client.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "browser": "dist/index.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ExiaSR/gcp-js"
+  },
+  "author": "Michael Lin <linzichunzf@hotmail.com> (https://michaellin.me)",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "flow": "flow",
+    "lint": "eslint src --fix",
+    "build": "rollup -c",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "qs": "^6.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "flow-bin": "^0.88.0",
+    "flow-typed": "^2.5.1",
+    "prettier": "^1.15.3",
+    "rollup": "^0.67.4",
+    "rollup-plugin-babel": "^4.1.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-terser": "^3.0.0"
+  }
+}
